@@ -1,0 +1,31 @@
+div.suggestions-container {
+  display: grid;
+  grid-template-rows: 1fr 10fr;
+  position: absolute;
+  background-color: white;
+  z-index: 20;
+  margin-top: 60px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  padding: 5px;
+  background-color: white;
+  border-bottom: 1px solid #ccc;
+
+  a.suggestions-top {
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: black;
+    margin-left: 5rem;
+    margin-right: 15px;
+    span.search-count {
+      margin-right: 15px;
+    }
+  }
+  div.cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+  }
+}
